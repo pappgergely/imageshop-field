@@ -18,7 +18,7 @@ class ImageShopField extends Field
     public $showSizeDialogue = false;
     public $buttonText = "Velg bilde";
 
-    public function normalizeValue($value, ElementInterface $element = null)
+    public function normalizeValue($value, ElementInterface $element = null): mixed
     {
         return new ImageshopSelection($value);
     }
@@ -76,7 +76,7 @@ class ImageShopField extends Field
         ]);
     }
 
-    public function getSettingsHtml()
+    public function getSettingsHtml(): ?string
     {
         $settings = Imageshop::$plugin->settings;
 
