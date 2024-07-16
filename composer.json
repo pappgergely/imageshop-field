@@ -1,7 +1,7 @@
 {
     "name": "netlab/imageshop-field",
     "description": "Integrates the Imageshop file picker into Craft CMS",
-    "version": "1.0.9",
+    "version": "1.0.8",
     "type": "craft-plugin",
     "keywords": [
         "imageshop",
